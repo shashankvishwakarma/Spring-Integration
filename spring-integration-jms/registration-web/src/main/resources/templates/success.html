@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <title>Registration Form Submission</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body>
+        <h1>Registration Successful !</h1>
+        <p th:text="'id: ' + ${registration.id}"/>
+        <p th:text="'message: ' + ${registration.message}"/>
+        <a href="/">Submit another message</a>
+    </body>
+</html>
