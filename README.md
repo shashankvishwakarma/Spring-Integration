@@ -1,4 +1,4 @@
-# Introduction to Spring Integration
+# Spring Integration with Spring boot
 
 ## Spring Integration File
 This is an example Spring Integration inside a Spring Boot app using Spring Integration File
